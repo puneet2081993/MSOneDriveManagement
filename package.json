@@ -1,0 +1,23 @@
+{
+    "name": "OneDriveApp",
+    "author": "Puneet Jain",
+    "license": "ISC",
+    "private": true,
+    "engines": {
+        "node": ">20.0.0"
+    },
+    "version": "1.0.0",
+    "description": "One Drive App",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "isomorphic-fetch": "^3.0.0",
+        "socket.io": "^4.7.5"
+    }
+}
