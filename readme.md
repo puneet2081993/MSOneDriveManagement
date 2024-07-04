@@ -13,8 +13,8 @@ This Node.js application connects to OneDrive to list files, download files, and
 - `CLIENT_SECRET=XXXX~H8Wpqim7~y1.EEpIT.XXXXX`
 - `REDIRECT_URI=http://localhost:3030/auth/callback`
 - `PORT=3030`
-- MS_BASE_URL=https://graph.microsoft.com/v1.0
-- WEBHOOK_URL=https://f553-49-37-178-222.ngrok-free.app/webhook
+- `MS_BASE_URL=https://graph.microsoft.com/v1.0`
+- `WEBHOOK_URL=http://localhost:3030/webhook`
 
 ## Running the Application
 1. Start the server with `npm start`.
